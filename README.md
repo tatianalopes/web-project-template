@@ -1,5 +1,7 @@
 # Web project template
 
+This repository contains a template for a Web project using *NodeJS*, *ReactJS* and *TypeScript*.
+
 ## Getting Started
 
 ### Prerequisites
@@ -17,6 +19,34 @@ Install tools
 ```
 brew install yarn
 brew install node
+```
+
+#### Ubuntu
+
+Configure repository
+
+```
+curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
+echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
+```
+
+Install tools
+
+```
+sudo apt update
+sudo apt install yarn
+sudo apt install nodejs
+```
+
+#### Windows
+
+Install [Chocolatey](https://chocolatey.org/install)
+
+Install tools
+
+```
+choco install yarn
+choco install nodejs
 ```
 
 ### Backend
