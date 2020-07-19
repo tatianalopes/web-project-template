@@ -51,6 +51,22 @@ yarn
 yarn start
 ```
 
+## Coding standards tools
+
+This template uses [EditorConfig](https://editorconfig.org/), [ESLint](https://eslint.org/) and [Prettier](https://prettier.io/) to enforce conding standards in the project. Both the backend and frontend folders contain the configuration files of these tools.
+
+### EditorConfig
+
+To use EditorConfig in VSCode you must install the extesion called [EditorConfig for VS Code](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig). 
+
+### Eslint
+
+To use Eslint in VSCode you must install its [Eslint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint). 
+
+### Prettier
+
+For Prettier to work properly with this project's configurations you must not use the [Prettier - Code Formatter](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) extesion on VSCode. 
+
 ## Built With
 
 * [Node](https://nodejs.org/) - JavaScript runtime environment
