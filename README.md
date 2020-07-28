@@ -53,7 +53,7 @@ choco install nodejs
 
 #### Installing dependencies
 
-Inside de *backend* folder, run:
+Inside the *backend* folder, run:
 
 ```
 yarn
@@ -69,7 +69,7 @@ yarn dev:server
 
 #### Installing dependencies
 
-Inside de *frontend* folder, run:
+Inside the *frontend* folder, run:
 
 ```
 yarn
